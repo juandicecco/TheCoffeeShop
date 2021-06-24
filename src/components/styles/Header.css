@@ -3,13 +3,13 @@
   padding: 0.5rem 0;
   /* background-color: rgb(63, 48, 28); */
   /* background-image: linear-gradient(
-    to right,
-    #150606,
-    #1e0f0c,
-    #25150f,
-    #2c1b11,
-    #322212
-  ); */
+      to right,
+      #150606,
+      #1e0f0c,
+      #25150f,
+      #2c1b11,
+      #322212
+    ); */
   background-image: linear-gradient(
     to right,
     #231510,
@@ -42,4 +42,31 @@
 .Navbar__brand-logo {
   margin-right: 0.5rem;
   width: 50px;
+}
+
+.Navbar a {
+  text-decoration: none;
+}
+
+.Navbar ul {
+  list-style: none;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 50px;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Bavbar__cart {
+  width: 35px;
+  filter: brightness(0) invert(1);
+  margin-left: 20px;
+}
+
+.product__font {
+  color: white;
 }

@@ -1,0 +1,22 @@
+.card {
+  /* height: 490px; */
+  margin-bottom: 5px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.card .card-body .card-text {
+  height: 40px;
+}
+
+.container .card .card-body a {
+  display: block;
+  background-color: rgb(168, 164, 164);
+  border-color: rgb(117, 114, 110);
+  color: white;
+}
+
+.texto {
+  margin-bottom: 10px;
+}

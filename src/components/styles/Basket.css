@@ -1,0 +1,28 @@
+.manager {
+  margin: 100px auto;
+  width: 500px;
+}
+
+.item__manager {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.button__size {
+  margin: 5px;
+  margin-right: 10px;
+}
+
+.button__size .btn {
+  display: inline-block;
+}
+
+.center__but {
+  display: flex;
+  justify-content: center;
+}
+
+.center__but button {
+  width: 200px;
+}

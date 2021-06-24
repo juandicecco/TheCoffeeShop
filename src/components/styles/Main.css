@@ -4,6 +4,11 @@
   margin-top: 20px;
 }
 
+.manage {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .container .card .card-body .card-text {
   height: 70px;
 }
@@ -15,6 +20,15 @@
   color: white;
 }
 
-.container a::before {
-  content: "$ ";
+/* .row {
+  display: flex;
+  justify-content: space-between;
 }
+
+.col-1 {
+  flex: 1;
+}
+
+.col-2 {
+  flex: 2;
+} */
