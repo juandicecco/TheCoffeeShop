@@ -1,0 +1,20 @@
+.container .card {
+  /* height: 490px; */
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.container .card .card-body .card-text {
+  height: 70px;
+}
+
+.container .card .card-body a {
+  display: block;
+  background-color: rgb(168, 164, 164);
+  border-color: rgb(117, 114, 110);
+  color: white;
+}
+
+.container a::before {
+  content: "$ ";
+}
