@@ -16,6 +16,7 @@ const data = {
         "Strong black coffee made by forcing steam through ground coffee beans.",
       price: 5,
       image: img1,
+      tax: 0.12,
     },
     {
       id: "2",
@@ -23,6 +24,7 @@ const data = {
       description: "Espresso mixed with hot or steamed milk.",
       price: 6,
       image: img2,
+      tax: 0.08,
     },
     {
       id: "3",
@@ -31,6 +33,7 @@ const data = {
         "Type of coffee drink prepared by diluting an espresso with hot water.",
       price: 5,
       image: img3,
+      tax: 0.09,
     },
     {
       id: "4",
@@ -39,6 +42,7 @@ const data = {
         "Single espresso shot and hot milk, with the surface topped with foamed milk.",
       price: 7,
       image: img4,
+      tax: 0.11,
     },
     {
       id: "5",
@@ -47,6 +51,7 @@ const data = {
         "A chilled drink of sweetened tea without milk, typically flavoured with lemon.",
       price: 4,
       image: img5,
+      tax: 0.02,
     },
     {
       id: "6",
@@ -55,6 +60,7 @@ const data = {
         "Carbonated soft drink manufactured by The Coca-Cola Company.",
       price: 2,
       image: img6,
+      tax: 0.1,
     },
     {
       id: "7",
@@ -63,6 +69,7 @@ const data = {
         "An item of food consisting of two pieces of bread with filling between them.",
       price: 10,
       image: img7,
+      tax: 0.15,
     },
     {
       id: "8",
@@ -71,6 +78,7 @@ const data = {
         "A piece of light bread having a curved shape with two narrow pointed ends.",
       price: 7,
       image: img8,
+      tax: 0.1,
     },
   ],
 };

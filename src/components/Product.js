@@ -12,7 +12,8 @@ export default function Product(props) {
           <h5 className="card-title">{product.name}</h5>
           <p className="card-text">{product.description}</p>
           <div className="text-center texto">
-            <strong>${product.price}</strong>
+            <strong>${product.price} </strong>
+            tax: {product.tax * 100}%
           </div>
           <div className="text-center">
             <button

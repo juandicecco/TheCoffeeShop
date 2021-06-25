@@ -6,9 +6,10 @@ export default function Basket(props) {
   const { cartItems, onAdd, onRemove } = props;
 
   const itemsPrice = cartItems.reduce((a, c) => a + c.price * c.qty, 0);
-  const taxPrice = itemsPrice * 0.14;
+  const itemsTax = cartItems.reduce((a, c) => a + c.tax * (c.price * c.qty), 0);
+  const taxPrice = itemsTax;
   const itemsPlustax = itemsPrice + taxPrice;
-  const discountPrice = itemsPlustax > 14 ? 0.15 : 0;
+  const discountPrice = itemsPlustax > 15 ? 0.15 : 0;
   const totalPrice =
     discountPrice > 0 ? itemsPlustax * (1 - discountPrice) : itemsPlustax;
 
@@ -70,7 +71,11 @@ export default function Basket(props) {
             <div className="row">
               <button
                 className="btn btn-primary"
-                onClick={() => alert("Thank you for your purchase, Enjoy!")}
+                onClick={() =>
+                  setTimeout(function () {
+                    alert("Your Order is ready, Enjoy!");
+                  }, 1000)
+                }
               >
                 Buy
               </button>
